@@ -2,9 +2,9 @@
 image: galoisinc/daedalus
 
 tasks:
-  - command: gp open Welcome.ddl
+  - command: gp open /workspace/Welcome.ddl
       
 vscode:
   extensions:
-    - file:///workspace/extensions/daedalus-0.0.1.vsix
+    - file:///usr/local/lib/daedalus-0.0.1.vsix
     
