@@ -6,5 +6,5 @@ tasks:
       
 vscode:
   extensions:
-    - file:///usr/local/lib/daedalus-0.0.1.vsix
+    - /usr/local/lib/daedalus-0.0.1.vsix
     
