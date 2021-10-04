@@ -1,4 +1,5 @@
 
 {
     "image":"galoisinc/daedalus"
+    "extensions":["/usr/local/lib/daedalus-0.0.1.vsix"]
 }
