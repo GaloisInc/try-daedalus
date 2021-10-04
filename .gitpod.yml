@@ -1,0 +1,10 @@
+
+image: galoisinc/daedalus
+
+tasks:
+  - command: gp open Welcome.ddl
+      
+vscode:
+  extensions:
+    - file:///workspace/extensions/daedalus-0.0.1.vsix
+    
