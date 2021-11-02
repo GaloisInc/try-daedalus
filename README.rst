@@ -13,32 +13,30 @@ Getting Started
 ---------------
 
 This repository uses VSCode's `remote container extension`_.  First
-you must ensure this extension is installed; see the `Developing
-inside a Container`_ tutorial for detailed instructions.
+you must ensure this extension is installed; see the `Developing inside a Container`_ tutorial for detailed instructions.
 
 .. _remote container extension: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
 .. _Developing inside a Container: https://code.visualstudio.com/docs/remote/containers
 
-Once the remote container extension is installed, you should see a button in the bottom left of the VSCode window, something |like this|.
+Once the remote container extension is installed, you should see a button in the bottom left of the VSCode window like this. |like this|
 
 .. |like this| image:: images/remote-button.png
 
-Click on this button and select 'Clone Repository in Container
-Volume...'.  This will bring up a dialogue, enter
-'galoisinc/try-deadalus', |like so|.
+Click on this button and select 'Clone Repository in Container Volume...'.  This will bring up a dialogue, enter
+'galoisinc/try-deadalus', like below. |open-repo|
 
-.. |like so| image:: images/open-repo.png
+.. |open-repo| image:: images/open-repo.png
 
-After hitting enter, VSCode will download the `daedalus container`
+After hitting enter, VSCode will download the `daedalus container`_
 from DockerHub.  This contains a pre-built copy of the language server
 which provides the IDE backend for DDL.  Once everything has completed
-setting up, |you will see| a terminal running in the docker image, and a
-number of files in the explorer frame on the left hand side.
+setting up, you will see a terminal running in the docker image and a
+number of files in the explorer frame on the left hand side. |docker-started|
 
-.. |you will see| image:: images/docker-started.png
+.. |docker-started| image:: images/docker-started.png
 .. _daedalus container: https://hub.docker.com/repository/docker/galoisinc/daedalus
 
-From there open 'Welcome.ddl' and follow the examples there.
+From there open 'Welcome.ddl' and follow the examples.
 
 Next Steps
 ----------
