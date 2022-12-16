@@ -1,5 +1,5 @@
 
 {
-    "image":"galoisinc/daedalus"
+    "image":"galoisinc/daedalus:2022-12-15"
     "extensions":["/usr/local/lib/daedalus-0.0.1.vsix"]
 }

@@ -11,7 +11,7 @@
 def HelloWorld =
   block
     hello = Match "Hello"
-    Match1 ' '
+    Match [' ']
     world = Match "World"
 
 -- Try putting your cursor inside this definition and running the
